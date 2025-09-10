@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65%;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+body{
+    height: 100vh;
+    background: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    box-shadow: 0 0 20px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.container h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.container .quote{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(28, 26, 26);
+    padding: 1.5rem;
+    background: #afa7a7;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.container .input{
+    width: 100%;
+    height: 20rem;
+    border: 1px solid #ccc;
+    outline: none;
+    resize: none;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.container .input:focus{
+    border: 2px solid cyan;
+}
+.container .stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container .stats p{
+    color: black;
+    font-size: 1.8rem;
+    font-family: 300;
+}
+
+.container .reset{
+    padding: 1.5rem 5rem;
+    background: rgb(74, 215, 215);
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 50px;
+}
+.container .reset:hover{
+    background: aquamarine;
+}
